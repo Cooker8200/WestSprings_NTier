@@ -1,0 +1,77 @@
+﻿.body-content {
+    width: 100%;
+}
+/*Navbar*/
+#logo_header {
+    margin-top: .5%;
+    float: left;
+}
+
+#facebook {
+    float: right;
+    height: auto;
+    width: auto;
+    max-height: 3em;
+    margin-top: -25%;
+}
+
+
+/*About Page*/
+.about_header{
+    width: 100%;
+    height: 100%;
+    background: url(../Images/Headers/mission.jpg);
+    background-size: cover;
+    height: 15em;
+    margin-top: 1.5em;
+}
+
+@media(min-width: 481px){
+    .about_head_text{
+    list-style-type: none;
+    text-align: center;
+    margin-right: 20%;
+    padding-top: 5em;
+}
+}
+
+@media(max-width: 480px){
+    .about_head_text{
+        list-style-type: none;
+        text-align: center;
+        margin-right: 20%;
+        padding-top: 2em;
+    }
+}
+
+@media(max-width: 480px){
+    #about_one, #about_two{
+        font-size:3em;
+        display: inline;
+    }
+}
+
+@media(min-width: 481px){
+    #about_one, #about_two{
+    font-size: 4em;
+    display: inline;
+}
+}
+
+
+
+/*Mid Page Break*/
+.main_break{
+    background: darkblue;
+    color: white;
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.main_break_bottom{
+    text-align: center;
+    font-size: 1.5em;
+    color: black;
+}

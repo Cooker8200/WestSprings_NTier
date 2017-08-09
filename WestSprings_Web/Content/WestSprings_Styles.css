@@ -1,0 +1,122 @@
+﻿/*Home Page*/
+
+.body-content {
+    width: 100% !important;
+}
+
+@media (max-width: 480px){
+    #slide_pic{
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+}
+
+body{
+    background: url(../Images/background.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+@media (min-width: 481px){
+    #slide_pic{
+        margin-left: auto;
+        margin-right: auto;
+        /*zoom: 1.5;*/
+        height: 30em;
+        min-width: 75em;
+    }
+}
+
+.home_split_info{
+    text-align: center;
+    padding: 2%;
+    letter-spacing: .1em;
+    margin-top: 5%;
+    background: white;
+    border-radius: 100px;
+    opacity: .95;
+    height: 25em;
+}
+
+.home_border_link{
+    border: .1em solid black;
+    color: black;
+    font-size: 24px;
+    padding: 2px;
+}
+
+.home_border_link:hover{
+    border: .1em solid yellow;
+    text-decoration: none;
+    color: yellow;
+}
+
+.home_ministries{
+    font-family: cursive;
+    font-weight: bold;
+}
+
+#home_main3_kids, #home_main3_wired, #home_main3_wow, #home_main3_men{
+    background: white;
+    border: 2px solid black;
+    border-radius: 5%;
+    text-align: center;
+    padding: 2%;
+    font-family: Calibri;
+    color: black;
+    height: 35em;
+}
+
+/*About Page*/
+
+.about_list_header{
+    text-align: center;
+    font-size: 1.5em;
+    font-family: Calibri;
+    font-weight: bold;
+    color: black;
+}
+
+#about_list_left{
+    margin-left: 10%;
+}
+
+#about_list_right{
+    margin-right: 10%;
+}
+
+/* Ministries Page */
+.ministries_main_desc{
+    text-align: center;
+    color: white;
+}
+
+#ministries_kids, #ministries_men, #ministries_wow, #ministries_wired {
+    background: white;
+    border: 2px solid black;
+    border-radius: 5%;
+    text-align: center;
+    padding: 2%;
+    font-family: Calibri;
+    color: black;
+}
+
+#ministries_program_info{
+    background: white;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-top: 10%;
+}
+
+.activity_header{
+    color: darkblue;
+    text-align: center;
+    text-shadow: 2px 2px 2px #e6e600;
+    font-size: 3em;
+}
+
+#wired, #women, #men{
+    text-align: center;
+}
+

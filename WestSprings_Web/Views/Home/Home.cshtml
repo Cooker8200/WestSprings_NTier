@@ -1,0 +1,115 @@
+﻿<div class="carousel" id="home_carousel">
+    <ol style="display: none;">
+        <li data-target="#home_carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#home_carousel" data-slide-to="1"></li>
+        <li data-target="#home_carousel" data-slide-to="2"></li>
+    </ol>
+
+    <div class="carousel-inner">
+        <div class="item active">
+            <img id="slide_pic" src="~/Images/Home/WS Main 1.jpg" />
+        </div>
+        <div class="item">
+            <img id="slide_pic" src="~/Images/Home/WS Main 2.jpg" />
+        </div>
+        <div class="item">
+            <img id="slide_pic" src="~/Images/Home/WS Main 3.jpg" />
+        </div>
+    </div>
+
+    <a class="left carousel-control" href="#home_carousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#home_carousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+
+<div id="main2" style="margin-top: 10%;">
+    <div class="col-md-6">
+        <div class="home_split_info">
+            <h3>ABOUT US</h3>
+            <p>
+                We Want to be a Real. Simple. Church.
+            </p>
+            <br />
+            <br />
+            <a class="home_border_link" @Html.ActionLink("Learn More", "About", "Home") </a>
+        </div>
+    </div>
+
+    <div class="col-md-6" id="home_split_info">
+        <div class="home_split_info">
+        <h3>MISSION & VISION Statements</h3>
+        <p>
+            West Springs Church is a praying church, reaching to our city and beyond, by serving
+            those far from God with friendship, love and the gospel of Jesus, in the power of the Holy Spirit.
+        </p>
+        <br />
+        <a class="home_border_link" @Html.ActionLink("Learn More", "Statements", "Home")</a>
+        <br />
+        </div>
+    </div>
+</div>
+
+<div id="main3" class="col-md-12" style="margin-top: 10%;">
+    <div class="col-md-3" id="home_main3_kids">
+        <h4>Kids Construction Company</h4><br />
+        <img src="~/Images/Ministries/kids.png" />
+        <p class="home_ministries">Our children's ministry aspires to show the love of God to every child in KCC</p>
+        <a class="home_border_link" @Html.ActionLink("Learn More", "Ministries", "Home")</a></p>
+    </div>
+
+    <div class="col-md-3" id="home_main3_wired">
+        <h4>WIRED Studen Ministries</h4><br />
+        <img src="~/Images/Ministries/wired.png" />
+        <p class="home_ministries">
+            WIRED Student Ministry exists to provide a safe, and fun place where Jr. High and High School students know and
+            grow in Christ.
+        </p>
+        <a class="home_border_link" @Html.ActionLink("Learn More", "Ministries", "Home")</a>
+    </div>
+    
+    <div class="col-md-3" id="home_main3_wow">
+        <h4>Women of the Word (W.O.W.)</h4><br />
+        <img src="~/Images/Ministries/wow.png" />
+        <p class="home_ministries">The W.O.W Ministry welcomes all women to participate in our various programs and special events.</p>
+        <a class="home_border_link" @Html.ActionLink("Learn More", "Ministries", "Home")</a>
+    </div>
+
+    <div class="col-md-3" id="home_main3_men">
+        <h4>West Springs Men's Ministry</h4><br />
+        <img src="~/Images/Ministries/mens.png" />
+        <p class="home_ministries">This is a growing group of Men wanting to come together to support one another as we learn to be...</p>
+        <a class="home_border_link" @Html.ActionLink("Learn More", "Ministries", "Home")</a>
+    </div>
+</div>
+
+<div id="main4" class="col-md-12" style="margin-top: 10%;">
+    <div class="col-md-6">
+        <div class="home_split_info">
+        <h3>SERVE</h3>
+        <p>
+            At West Springs Church, we want to include you in some of our amazing opportunities to share kindness, love and the
+            Gospel with the world around us.
+        </p>
+        <a class="home_border_link" @Html.ActionLink("Learn More", "OngoingOpp", "Home")</a>
+        </div>
+    </div>
+
+    <div class="col-md-6">
+        <div class="home_split_info">
+        <h3>GIVE</h3>
+        <p>Join us on our mission to help others grow in Christ.</p>
+        <br />
+        <a class="home_border_link" href="https://pushpay.com/pay/westspringschurch/pF2iIOFNI1CnlLLxiS6dZQ">Donate</a>
+        <br />
+        </div>
+    </div>
+</div>
+
+
+
+@Styles.Render("~/Content/WestSprings_Styles.css")
