@@ -22,7 +22,7 @@ body{
     #slide_pic{
         margin-left: auto;
         margin-right: auto;
-        /*zoom: 1.5;*/
+        zoom: 1.5;
         height: 30em;
         min-width: 75em;
     }
@@ -36,7 +36,7 @@ body{
     background: white;
     border-radius: 100px;
     opacity: .95;
-    height: 25em;
+    height: 20em;
 }
 
 .home_border_link{
@@ -120,3 +120,39 @@ body{
     text-align: center;
 }
 
+/* Sermon Page */
+#sermon_cloud{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    display: block;
+}
+
+#sermon_head{
+    padding-top: 0;
+}
+
+#online_sermons{
+    text-align: center;
+}
+    /* !!! DANGER !!! */
+ul{
+    list-style-type: none;
+}
+
+/* Serve Page */
+#serve_main {
+    background: white;
+    border: 2px solid black;
+    padding: 5%;
+}
+
+#serve_info{
+    color: black;
+}
+
+/* Give Page */
+
+/*#give_header{
+    background: darkblue;
+}*/

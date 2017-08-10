@@ -110,6 +110,26 @@
     </div>
 </div>
 
+<div class="col-md-12">
+    <div class="col-md-6">
+        <h3>VISIT US</h3>
+        <br />
+        <h4>West Springs Church</h4>
+        <address>
+            501 Big Bend Road<br />
+            Ballwin, MO 63021<br />
+            Sunday Service, 10:15am
+        </address>
+        <p>just East of Ries Rd...</p>
+    </div>
+
+    <div class="col-md-6" id="map">
+        <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key= &callback=initMap"></script>
+    </div>
+</div>
+
 
 
 @Styles.Render("~/Content/WestSprings_Styles.css")
+@Scripts.Render("~/Scripts/Map.js")

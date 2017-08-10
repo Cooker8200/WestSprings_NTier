@@ -34,6 +34,14 @@ namespace WestSprings_Web.Controllers
             return View();
         }
 
+        public ActionResult Serve()
+        {
+            return View();
+        }
 
+        public ActionResult Give()
+        {
+            return View();
+        }
     }
 }

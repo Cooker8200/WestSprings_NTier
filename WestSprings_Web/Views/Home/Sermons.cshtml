@@ -1,7 +1,24 @@
-﻿
-@{
-    ViewBag.Title = "Sermons";
-}
+﻿<div class="about_header" id="sermon_header">
+    <ul class="about_head_text" id="sermon_head">
+        <li id="about_one">Online Sermons</li>
+        @*<li id="about_two"></li>*@
+    </ul>
+</div>
+<hr />
+<h3 class="main_break_bottom">Hear the message, even if you missed it live</h3>
 
-<h2>Sermons</h2>
+<p style="text-align: center;">Life happens, but now you can continue to hear the word of God.</p>
 
+<div class="col-md-6" id="online_sermons">
+    <script language="javascript" src="http://www.sermoncloud.com/js/west-springs-church/recent/3"></script>
+</div>
+
+<div class="col-md-6">
+    <a href="http://www.sermoncloud.com/west-springs-church/">
+        <img id="sermon_cloud" src="~/Images/WS Motto.png"
+             title="Online Sermons at Sermon Cloud" />
+    </a>
+</div>
+
+
+@Scripts.Render("~/Scripts/Sermon_Scripts.js")

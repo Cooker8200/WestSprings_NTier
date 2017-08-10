@@ -1,0 +1,28 @@
+﻿<div class="about_header" id="give_header">
+    <ul class="about_head_text">
+        <li id="about_one">How to</li>
+        <li id="about_two">Give</li>
+    </ul>
+</div>
+<hr />
+
+<div class="col-md-6">
+    <div class="home_split_info">
+        <h3>SERVE</h3>
+        <p>At West Springs Church, we want to include you in some of our amazing opporitunities to share kindness,
+           love and the Gospel with the world around us.</p>
+        <a class="home_border_link" @Html.ActionLink("Learn More", "Serve", "Home")</a>
+    </div>
+</div>
+
+<div class="col-md-6">
+    <div class="home_split_info">
+        <h3>GIVE</h3>
+        <p>Join us on our mission to help others grow in Christ.</p>
+        <a class="home_border_link" href="https://pushpay.com/pay/westspringschurch/pF2iIOFNI1CnlLLxiS6dZQ">Donate</a>
+    </div>
+</div>
+
+<hr />
+
+@Scripts.Render("~/Scripts/Give_Script.js")

@@ -232,6 +232,7 @@
     <Content Include="Images\Ministries\mens.png" />
     <Content Include="Images\Ministries\wired.png" />
     <Content Include="Images\Ministries\wow.png" />
+    <Content Include="Images\WS Motto.png" />
     <Content Include="Scripts\About_Scripts.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -239,6 +240,7 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\Give_Script.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
@@ -246,10 +248,13 @@
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\Map.js" />
     <Content Include="Scripts\Ministries_Scripts.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
+    <Content Include="Scripts\Sermon_Scripts.js" />
+    <Content Include="Scripts\Serve_Script.js" />
     <Content Include="Scripts\WestSprings_Scripts.js" />
     <Content Include="Scripts\_references.js" />
     <Content Include="Web.config" />
@@ -288,6 +293,8 @@
     <Content Include="Views\Home\Statements.cshtml" />
     <Content Include="Views\Home\Ministries.cshtml" />
     <Content Include="Views\Home\Sermons.cshtml" />
+    <Content Include="Views\Home\Serve.cshtml" />
+    <Content Include="Views\Home\Give.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
