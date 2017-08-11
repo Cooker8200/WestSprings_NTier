@@ -80,3 +80,7 @@ c:\users\jennifer\desktop\WestSprings_NTier\WestSprings_Web\bin\Microsoft.Owin.S
 c:\users\jennifer\desktop\WestSprings_NTier\WestSprings_Web\obj\Debug\WestSprings_Web.csprojResolveAssemblyReference.cache
 c:\users\jennifer\desktop\WestSprings_NTier\WestSprings_Web\obj\Debug\WestSprings_Web.dll
 c:\users\jennifer\desktop\WestSprings_NTier\WestSprings_Web\obj\Debug\WestSprings_Web.pdb
+C:\Users\Jennifer\Desktop\WestSprings_NTier\WestSprings_Web\bin\WestSprings_Business.dll
+C:\Users\Jennifer\Desktop\WestSprings_NTier\WestSprings_Web\bin\WestSprings_Models.dll
+C:\Users\Jennifer\Desktop\WestSprings_NTier\WestSprings_Web\bin\WestSprings_Business.pdb
+C:\Users\Jennifer\Desktop\WestSprings_NTier\WestSprings_Web\bin\WestSprings_Models.pdb

@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WestSprings_Utilities
+namespace WestSprings_Data.Interface
 {
-    public class Class1
+    public class DataManager
     {
+        private DataContext db = new DataContext();
     }
 }

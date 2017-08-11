@@ -68,6 +68,24 @@ body{
     height: 35em;
 }
 
+#main_contact{
+    margin-top: 10%;
+}
+
+#map{
+    height: 293px;
+    width: 685px;
+    border: 2px solid black;
+}
+
+#map_support{
+    height: 293px;
+    width: 685px;
+    text-align: center;
+    background: white;
+    border: 2px solid black;
+}
+
 /*About Page*/
 
 .about_list_header{

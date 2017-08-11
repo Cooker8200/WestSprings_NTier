@@ -3,3 +3,9 @@ c:\users\jennifer\desktop\WestSprings_NTier\WestSprings_Business\bin\Debug\WestS
 c:\users\jennifer\desktop\WestSprings_NTier\WestSprings_Business\obj\Debug\WestSprings_Business.csprojResolveAssemblyReference.cache
 c:\users\jennifer\desktop\WestSprings_NTier\WestSprings_Business\obj\Debug\WestSprings_Business.dll
 c:\users\jennifer\desktop\WestSprings_NTier\WestSprings_Business\obj\Debug\WestSprings_Business.pdb
+C:\Users\Jennifer\Desktop\WestSprings_NTier\WestSprings_Business\bin\Debug\WestSprings_Models.dll
+C:\Users\Jennifer\Desktop\WestSprings_NTier\WestSprings_Business\bin\Debug\WestSprings_Utilities.dll
+C:\Users\Jennifer\Desktop\WestSprings_NTier\WestSprings_Business\bin\Debug\WestSprings_Models.pdb
+C:\Users\Jennifer\Desktop\WestSprings_NTier\WestSprings_Business\bin\Debug\WestSprings_Utilities.pdb
+C:\Users\Jennifer\Desktop\WestSprings_NTier\WestSprings_Business\bin\Debug\WestSprings_Data.dll
+C:\Users\Jennifer\Desktop\WestSprings_NTier\WestSprings_Business\bin\Debug\WestSprings_Data.pdb

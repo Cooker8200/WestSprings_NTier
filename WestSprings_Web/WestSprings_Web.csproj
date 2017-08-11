@@ -196,6 +196,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\ContactController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Global.asax.cs">
@@ -295,10 +296,10 @@
     <Content Include="Views\Home\Sermons.cshtml" />
     <Content Include="Views\Home\Serve.cshtml" />
     <Content Include="Views\Home\Give.cshtml" />
+    <Content Include="Views\Contact\ContactHome.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\Contact\" />
     <Folder Include="Views\Directory\" />
   </ItemGroup>
   <ItemGroup>
@@ -308,6 +309,16 @@
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WestSprings_Business\WestSprings_Business.csproj">
+      <Project>{f29efcf1-9b37-4081-8840-2ba9b5a60650}</Project>
+      <Name>WestSprings_Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WestSprings_Models\WestSprings_ViewModels.csproj">
+      <Project>{18643591-8b8b-4286-9da0-7f05890011f5}</Project>
+      <Name>WestSprings_ViewModels</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

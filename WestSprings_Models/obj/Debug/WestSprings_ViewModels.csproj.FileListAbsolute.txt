@@ -1,0 +1,5 @@
+C:\Users\Jennifer\Desktop\WestSprings_NTier\WestSprings_Models\obj\Debug\WestSprings_ViewModels.csprojResolveAssemblyReference.cache
+C:\Users\Jennifer\Desktop\WestSprings_NTier\WestSprings_Models\obj\Debug\WestSprings_Models.dll
+C:\Users\Jennifer\Desktop\WestSprings_NTier\WestSprings_Models\obj\Debug\WestSprings_Models.pdb
+C:\Users\Jennifer\Desktop\WestSprings_NTier\WestSprings_Models\bin\Debug\WestSprings_Models.dll
+C:\Users\Jennifer\Desktop\WestSprings_NTier\WestSprings_Models\bin\Debug\WestSprings_Models.pdb

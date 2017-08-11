@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WestSprings_Business", "Wes
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WestSprings_Data", "WestSprings_Data\WestSprings_Data.csproj", "{FE583652-7A8D-44FD-9EFA-59966FDB4066}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WestSprings_Models", "WestSprings_Models\WestSprings_Models.csproj", "{18643591-8B8B-4286-9DA0-7F05890011F5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WestSprings_ViewModels", "WestSprings_Models\WestSprings_ViewModels.csproj", "{18643591-8B8B-4286-9DA0-7F05890011F5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WestSprings_Utilities", "WestSprings_Utilities\WestSprings_Utilities.csproj", "{F0CE6D44-39E4-4182-81B3-70BD19C87C2B}"
 EndProject
