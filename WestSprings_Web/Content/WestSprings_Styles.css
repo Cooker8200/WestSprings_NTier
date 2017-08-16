@@ -174,3 +174,10 @@ ul{
 /*#give_header{
     background: darkblue;
 }*/
+
+/* Calendar */
+#calendar_placeholder{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}

@@ -196,12 +196,15 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\CalendarController.cs" />
     <Compile Include="Controllers\ContactController.cs" />
+    <Compile Include="Controllers\DirectoryController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
@@ -218,6 +221,7 @@
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="Images\background.jpg" />
+    <Content Include="Images\comingsoon.jpg" />
     <Content Include="Images\Headers\bible.jpg" />
     <Content Include="Images\Headers\facebook.png" />
     <Content Include="Images\Headers\mission.jpg" />
@@ -297,10 +301,16 @@
     <Content Include="Views\Home\Serve.cshtml" />
     <Content Include="Views\Home\Give.cshtml" />
     <Content Include="Views\Contact\ContactHome.cshtml" />
+    <Content Include="Views\Calendar\CalendarHome.cshtml" />
+    <Content Include="Views\Directory\DirectoryHome.cshtml" />
+    <Content Include="Views\Directory\Details.cshtml" />
+    <Content Include="Views\Directory\Create.cshtml" />
+    <Content Include="Views\Directory\Edit.cshtml" />
+    <Content Include="Views\Directory\Delete.cshtml" />
+    <Content Include="Views\Contact\_Sent.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\Directory\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />

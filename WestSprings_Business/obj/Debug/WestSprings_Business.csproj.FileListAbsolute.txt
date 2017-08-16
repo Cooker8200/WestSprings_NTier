@@ -9,3 +9,17 @@ C:\Users\Jennifer\Desktop\WestSprings_NTier\WestSprings_Business\bin\Debug\WestS
 C:\Users\Jennifer\Desktop\WestSprings_NTier\WestSprings_Business\bin\Debug\WestSprings_Utilities.pdb
 C:\Users\Jennifer\Desktop\WestSprings_NTier\WestSprings_Business\bin\Debug\WestSprings_Data.dll
 C:\Users\Jennifer\Desktop\WestSprings_NTier\WestSprings_Business\bin\Debug\WestSprings_Data.pdb
+C:\Users\Jennifer\Desktop\WestSprings_NTier\WestSprings_Business\bin\Debug\WestSprings_Business.dll.config
+C:\Users\Jennifer\Desktop\WestSprings_NTier\WestSprings_Business\bin\Debug\System.Web.Mvc.dll
+C:\Users\Jennifer\Desktop\WestSprings_NTier\WestSprings_Business\bin\Debug\System.Web.Razor.dll
+C:\Users\Jennifer\Desktop\WestSprings_NTier\WestSprings_Business\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\Jennifer\Desktop\WestSprings_NTier\WestSprings_Business\bin\Debug\System.Web.WebPages.dll
+C:\Users\Jennifer\Desktop\WestSprings_NTier\WestSprings_Business\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Jennifer\Desktop\WestSprings_NTier\WestSprings_Business\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Jennifer\Desktop\WestSprings_NTier\WestSprings_Business\bin\Debug\System.Web.Mvc.xml
+C:\Users\Jennifer\Desktop\WestSprings_NTier\WestSprings_Business\bin\Debug\System.Web.Razor.xml
+C:\Users\Jennifer\Desktop\WestSprings_NTier\WestSprings_Business\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\Jennifer\Desktop\WestSprings_NTier\WestSprings_Business\bin\Debug\System.Web.WebPages.xml
+C:\Users\Jennifer\Desktop\WestSprings_NTier\WestSprings_Business\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\Jennifer\Desktop\WestSprings_NTier\WestSprings_Business\bin\Debug\EntityFramework.dll
+C:\Users\Jennifer\Desktop\WestSprings_NTier\WestSprings_Business\bin\Debug\EntityFramework.xml

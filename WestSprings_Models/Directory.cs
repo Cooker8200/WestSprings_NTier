@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace WestSprings_ViewModels
 {
-    public class DirectoryHome
+    public class DirectoryListingViewModel
     {
         public string firstname { get; set; }
 
         public string lastname { get; set; }
     }
 
-    public class DirectoryDetails
+    public class DirectoryViewModel
     {
         public string firstname { get; set; }
 

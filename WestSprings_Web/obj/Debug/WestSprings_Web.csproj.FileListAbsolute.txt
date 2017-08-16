@@ -84,3 +84,5 @@ C:\Users\Jennifer\Desktop\WestSprings_NTier\WestSprings_Web\bin\WestSprings_Busi
 C:\Users\Jennifer\Desktop\WestSprings_NTier\WestSprings_Web\bin\WestSprings_Models.dll
 C:\Users\Jennifer\Desktop\WestSprings_NTier\WestSprings_Web\bin\WestSprings_Business.pdb
 C:\Users\Jennifer\Desktop\WestSprings_NTier\WestSprings_Web\bin\WestSprings_Models.pdb
+C:\Users\Jennifer\Desktop\WestSprings_NTier\WestSprings_Web\bin\WestSprings_Data.dll
+C:\Users\Jennifer\Desktop\WestSprings_NTier\WestSprings_Web\bin\WestSprings_Data.pdb

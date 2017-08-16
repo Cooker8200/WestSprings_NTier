@@ -11,13 +11,13 @@ namespace WestSprings_Business
 {
     public class ContactManager
     {
-        public void SendMessage(WestSprings_ViewModels.WestSprings_Contact model)
+        public void SendMessage(WestSprings_Contact model)
         {
             var body = "<p>Email From: {0} ({1})</p><p>Message:</p><p>{2}</p>";
             var message = new MailMessage();
-            //var address = ((Leadership)Enum.ToObject(typeof(Leadership), model.SendToID)).ToString();
+            var address = ((Leadership)Enum.ToObject(typeof(Leadership), model.SendToAddressId)).ToString();
             message.To.Add(new MailAddress(/*address + */"Cooker8200@hotmail.com"));
-            message.From = new MailAddress(" ");
+            message.From = new MailAddress("Cooker8200@hotmail.com ");
             message.Subject = "West Springs Contact";
             message.Body = string.Format(body, model.Email, model.Name, model.Message);
             message.IsBodyHtml = true;

@@ -1,0 +1,42 @@
+﻿@model IEnumerable<WestSprings_ViewModels.Directory.DirectoryListingViewModel>
+
+<div class="directory_header">
+    <h3>West Springs Online Directory</h3>
+</div>
+
+@using Microsoft.AspNet.Identity
+@if (Request.IsAuthenticated)
+{
+    <div class="directory_list">
+        <table class="col-md-4" id="index_table">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.firstname)
+                </th>
+
+                <th>
+                    @Html.DisplayNameFor(model => model.lastname)
+                </th>
+            </tr>
+            
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.firstname)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.lastname)
+                    </td>
+                    <td>
+                        @Html.ActionLink("Details", "Details", new { id = item.memberid })
+                    </td>
+                </tr>
+            }
+        </table>
+    </div>
+}
+
+else {
+    <h1>Please login to use this feature</h1>
+}
