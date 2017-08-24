@@ -19,7 +19,8 @@ namespace WestSprings_Business
         public IEnumerable<WestSprings_ViewModels.Directory.DirectoryListingViewModel> List()
         {
             var DirectoryList = _data.List();
-            return DirectoryList;
+            //return DirectoryList;  //todo fix database issue
+            return null;
         }
     }
 }

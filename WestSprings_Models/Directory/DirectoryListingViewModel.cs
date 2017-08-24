@@ -11,6 +11,7 @@ namespace WestSprings_ViewModels.Directory
     {
         [Key]
         public int memberid { get; set; }
+
         public string firstname { get; set; }
 
         public string lastname { get; set; }

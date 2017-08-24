@@ -21,7 +21,7 @@ namespace WestSprings_Web.Models
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         public ApplicationDbContext()
-            : base("DefaultConnection", throwIfV1Schema: false)
+            : base("WestSpringsConnection", throwIfV1Schema: false)
         {
         }
 

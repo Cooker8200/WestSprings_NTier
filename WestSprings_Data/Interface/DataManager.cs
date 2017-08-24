@@ -14,8 +14,8 @@ namespace WestSprings_Data.Interface
         public IEnumerable<DataModel.Directory> List()
         {
             var DbList = db.Directory.ToList();
-            //return DbList;
-            return null;
+            return DbList;
+            //return null;
         }
     }
 }
