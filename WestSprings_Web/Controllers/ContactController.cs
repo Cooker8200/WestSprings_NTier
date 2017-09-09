@@ -38,10 +38,10 @@ namespace WestSprings_Web.Controllers
                 var date = DateTime.Now;
                 var name = model.Name;
                 
-                using (StreamWriter email = new StreamWriter("C:/Users/Jennifer/Desktop/WestSprings_NTier/WestSprings_Utilities/Logs/TextFile1.txt ", append: true))
-                {
-                    email.WriteLine(date + " , " + name);
-                }
+                //using (StreamWriter email = new StreamWriter("C:/Users/Jennifer/Desktop/WestSprings_NTier/WestSprings_Utilities/Logs/TextFile1.txt ", append: true))
+                //{
+                //    email.WriteLine(date + " , " + name);
+                //}
                 _contact.SendMessage(model);
                 // todo finish loggin code
 

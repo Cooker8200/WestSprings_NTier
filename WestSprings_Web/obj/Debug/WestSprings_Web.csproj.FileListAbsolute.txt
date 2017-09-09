@@ -86,3 +86,5 @@ C:\Users\Jennifer\Desktop\WestSprings_NTier\WestSprings_Web\bin\WestSprings_Busi
 C:\Users\Jennifer\Desktop\WestSprings_NTier\WestSprings_Web\bin\WestSprings_Models.pdb
 C:\Users\Jennifer\Desktop\WestSprings_NTier\WestSprings_Web\bin\WestSprings_Data.dll
 C:\Users\Jennifer\Desktop\WestSprings_NTier\WestSprings_Web\bin\WestSprings_Data.pdb
+C:\Users\Jennifer\Desktop\WestSprings_NTier\WestSprings_Web\obj\Debug\WestSprings_Web.Migrations.viewmodelsadded.resources
+C:\Users\Jennifer\Desktop\WestSprings_NTier\WestSprings_Web\obj\Debug\WestSprings_Web.csproj.GenerateResource.Cache
