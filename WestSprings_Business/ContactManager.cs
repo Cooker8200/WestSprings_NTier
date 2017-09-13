@@ -16,8 +16,8 @@ namespace WestSprings_Business
             var body = "<p>Email From: {0} ({1})</p><p>Message:</p><p>{2}</p>";
             var message = new MailMessage();
             var address = ((Leadership)Enum.ToObject(typeof(Leadership), model.SendToAddressId)).ToString();
-            message.To.Add(new MailAddress(/*address + */" "));
-            message.From = new MailAddress(" ");
+            message.To.Add(new MailAddress(/*address + " "*/"mcd_developer@outlook.com"));
+            message.From = new MailAddress("mcd_developer@outlook.com");
             message.Subject = "West Springs Contact";
             message.Body = string.Format(body, model.Email, model.Name, model.Message);
             message.IsBodyHtml = true;
@@ -26,8 +26,8 @@ namespace WestSprings_Business
             {
                 var credential = new NetworkCredential
                 {
-                    UserName = " ",
-                    Password = " "
+                    UserName = "mcd_developer@outlook.com",
+                    Password = "mcdDeveloper1234"
                 };
                 smtp.Credentials = credential;
                 smtp.Host = "smtp-mail.outlook.com";
